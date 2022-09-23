@@ -1,0 +1,11 @@
+table tbody tr {
+    cursor: pointer;
+}
+#table-blood-banks tbody tr {
+    cursor: auto;
+}
+#btn-add-donation, #btn-add-bank {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}

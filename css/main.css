@@ -1,0 +1,46 @@
+.bg-dark {
+    background-color: rgb(22, 22, 22) !important;
+}
+.color-theme {
+    color: rgb(245, 47, 47);
+}
+.jumbotron {
+    background-image: url('../blood-bank-cover-smscrn.jpg');
+    height: 200px;
+    background-size: cover;
+    border-radius: 0;
+}
+#txt-search {
+    border: none;
+    border-bottom: 1px #aaa solid;
+    min-width: 40%;
+    margin-right: 0 !important;
+    margin-left: auto !important;
+    border-radius: 0;
+}
+
+@media only screen and (min-width: 900px) {
+    .jumbotron {
+        height: 250px;
+        background-image: url('../blood-bank-cover.jpg');
+    }
+}
+
+
+@media only screen and (min-width: 1600px) {
+    .jumbotron {
+        width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .navbar {
+        width: 1600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .home-content {
+        width: 1600px;
+        margin-left: auto !important;
+        margin-right: auto !important;
+    }
+}
